@@ -15,6 +15,7 @@
 		47EDC94A1B4E767A00127717 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47EDC9481B4E767A00127717 /* LaunchScreen.storyboard */; };
 		47EDC9551B4E767A00127717 /* beta3_gitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EDC9541B4E767A00127717 /* beta3_gitTests.swift */; };
 		47EDC9601B4E767A00127717 /* beta3_gitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EDC95F1B4E767A00127717 /* beta3_gitUITests.swift */; };
+		47EDC96E1B4E79A900127717 /* addfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EDC96D1B4E79A900127717 /* addfile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		47EDC95B1B4E767A00127717 /* beta3_gitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = beta3_gitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		47EDC95F1B4E767A00127717 /* beta3_gitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = beta3_gitUITests.swift; sourceTree = "<group>"; };
 		47EDC9611B4E767A00127717 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47EDC96D1B4E79A900127717 /* addfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = addfile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				47EDC9481B4E767A00127717 /* LaunchScreen.storyboard */,
 				47EDC94B1B4E767A00127717 /* Info.plist */,
 				47EDC9431B4E767A00127717 /* beta3_git.xcdatamodeld */,
+				47EDC96D1B4E79A900127717 /* addfile.swift */,
 			);
 			path = beta3_git;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				47EDC9451B4E767A00127717 /* beta3_git.xcdatamodeld in Sources */,
+				47EDC96E1B4E79A900127717 /* addfile.swift in Sources */,
 				47EDC93F1B4E767A00127717 /* ViewController.swift in Sources */,
 				47EDC93D1B4E767A00127717 /* AppDelegate.swift in Sources */,
 			);
