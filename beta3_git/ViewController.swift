@@ -13,6 +13,10 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        var users: [String] = ["xiaohong", "xiaoqi"]
+        users.append("xiaoma")
+        print(users.indexOf("xiaohong")!)
+        
     }
 
     override func didReceiveMemoryWarning() {
